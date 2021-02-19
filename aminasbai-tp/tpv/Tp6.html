@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>video et audio</title>
+</head>
+<body>
+	<h1>
+	Video en HTML5
+    </h1>
+	<h2>La Mer</h2>
+	<video src="mer.mp4" controls>
+		Votre Navigateur ne supporte pas HTML5 video.
+	</video>
+	<video src="mer.mp4" controls style="width:200px;">
+		Votre Navigateur ne supporte pas HTML5 video.
+	</video>
+	<h2>La Mer</h2>
+	<video style="width:350px;" controls autoplay="1" muted="1">
+		<source src="mer.mp4" type="video/mp4">
+		<source src="mer.mp4.webm" type="video/webm">
+		<source src="mer.mp4.ogg" type="video/ogg">
+		Votre Navigateur ne supporte pas HTML5 video.	
+	</video>
+	<h2>fichier audio</h2>
+	<audio src="music.mp3" controls>
+		Votre Navigateur ne supporte pas HTML5 audio.
+	</audio>
+	<h2>fichier audio</h2>
+	<audio  controls>
+		<source src="music.mp3" type="audio/mpeg">
+		<source src="music.wav" type="audio/wav">
+		<source src="music.ogg" type="audio/ogg">
+		Votre navigateur ne supporte pas HTML5 audio.
+	</audio>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Les listes en HTML</title>
+	<meta charset="utf-8">
+  <style>
+        nav ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: #333333;
+        }
+
+        nav ul li {
+          float: left;
+        }
+
+        nav ul li a {
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 16px;
+          text-decoration: none;
+        }
+
+        nav ul li a:hover {
+          background-color: #111111;
+        }
+    </style>
+</head>
+<body>
+	<h1>Liste à puce ou liste non ordonnée</h1>
+		<ul>
+			<li>tableur</li>
+			<li>navigateur</li>
+			<li>trait. texte</li>
+		</ul>
+
+  <h1>Type de puce</h1>
+    <ul type="square">
+     <li>tableur</li>
+      <li>navigateur</li>
+      <li>trait. texte</li>
+    </ul>
+
+      <h1>Liste imbriquée</h1>
+    <ul>
+     <li>tableur
+        <ul>
+          <li>excel</li>
+          <li>open office</li>
+          <li>Gsheet</li>
+
+        </ul>
+     </li>
+      <li>navigateur
+        <ul>
+          <li>chrome</li>
+          <li>opera</li>
+          <li>mozilla</li>
+        </ul>
+      </li>
+      <li>trait. texte
+        <ul>
+          <li>word</li>
+          <li>doc reader</li>
+        </ul>
+      </li>
+    </ul>
+</body>
+
+</html>

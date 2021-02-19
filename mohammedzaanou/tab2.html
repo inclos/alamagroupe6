@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tableaux</title>
+	<style type="text/css">
+	table {
+  width: 50%;
+  border-collapse: collapse; 
+
+}
+
+td, th {
+  border: 2px solid black;
+  text-align: left;
+  padding: 8px;
+}
+
+</style>
+</head>
+<body>
+
+<h2> Tableau Complexe</h2>
+<h3> Fusionner les cellules en colonnes</h3>
+<table>
+   <tr>
+       <th>Titre du film</th>
+       <th>Pour enfants ?</th>
+       <th>Pour adolescents ?</th>
+   </tr>
+   <tr>
+       <td>Massacre à la tronçonneuse</td>
+       <td >Non, trop violent</td>
+       <td>Oui</td>
+   </tr>
+   <tr>
+       <td>Les bisounours font du ski</td>
+       <td>Oui, adapté</td>
+       <td>Pas assez violent...</td>
+   </tr>
+   <tr>
+       <td>Lucky Luke, seul contre tous</td>
+       <td colspan="2">Pour toute la famille !</td>
+   </tr>
+</table>
+
+<h3> Fusionner les cellules en lignes</h3>
+<table>
+   <tr>
+       <th>Titre du film</th>
+       <th>Pour enfants ?</th>
+       <th>Pour adolescents ?</th>
+   </tr>
+   <tr>
+       <td>Massacre à la tronçonneuse</td>
+       <td >Non, trop violent</td>
+       <td>Oui</td>
+   </tr>
+   <tr>
+       <td>Les bisounours font du ski</td>
+       <td>Oui, adapté</td>
+       <td rowspan="2">Pas assez violent...</td>
+   </tr>
+   <tr>
+       <td>Lucky Luke, seul contre tous</td>
+       <td>Pour toute la famille !</td>
+       
+   </tr>
+</table>
+
+<h3> Fusionner les cellules </h3>
+<table>
+   <tr>
+       <th>Titre du film</th>
+       <th>Pour enfants ?</th>
+       <th>Pour adolescents ?</th>
+   </tr>
+   <tr>
+       <td>Massacre à la tronçonneuse</td>
+       <td colspan="2" >Non, trop violent</td>
+       
+   </tr>
+   <tr>
+       <td>Les bisounours font du ski</td>
+       <td>Oui, adapté</td>
+       <td >Pas assez violent...</td>
+   </tr>
+   <tr>
+       
+       <td colspan="3">Pour toute la famille !</td>
+       
+   </tr>
+</table>
+</body>
+</html>
